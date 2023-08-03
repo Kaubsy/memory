@@ -1,13 +1,13 @@
 body {
   text-align: center;
-  background-color: #C1D124;
+  background-color: #9ff9d9;
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin:  5%;
-  color: #86FF98;
+  color: #9ff9d9;
 }
 
 .container {
@@ -27,20 +27,20 @@ body {
 }
 
 .game-over {
-  background-color: red;
-  opacity: 0.8;
+  background-color: black;
+  opacity: 0.8
 }
 
-.red {
-  background-color: red;
-}
-
-.green {
-  background-color: white;
+.black {
+  background-color: black;
 }
 
 .blue {
   background-color: blue;
+}
+
+.white {
+  background-color: white;
 }
 
 .yellow {
