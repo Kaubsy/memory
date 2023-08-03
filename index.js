@@ -17,7 +17,7 @@ var level = 0;
 $(document).keypress(function() {
   if (!started) {
 
-    //3. The h1 title starts out saying "Press A Key to Start", when the game has started, change this to say "Level 0".
+    //3. The h1 title starts out saying "Press A Block to Start", when the game has started, change this to say "Level 0".
     $("#level-title").text("Level " + level);
     nextSequence();
     started = true;
@@ -75,8 +75,8 @@ function checkAnswer(currentLevel) {
         $("body").removeClass("game-over");
       }, 200);
 
-      //3. Change the h1 title to say "Game Over, Press Any Key to Restart" if the user got the answer wrong.
-      $("#level-title").text("Game Over, Press Any Key to Restart");
+      //3. Change the h1 title to say "Game Over, Press Any Block to Restart" if the user got the answer wrong.
+      $("#level-title").text("Game Over, Press Any Block to Restart");
 
       //2. Call startOver() if the user gets the sequence wrong.
       startOver();
